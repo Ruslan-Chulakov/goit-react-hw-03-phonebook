@@ -46,13 +46,11 @@ export class App extends Component {
     );
   
   componentDidMount() {
-    console.log('did mount')
     const storedData = getDataFromLocalStorage('contacts');
     storedData && this.setState({contacts: storedData})
   }
 
   componentDidUpdate() {
-    console.log('did update')
     const { contacts } = this.state;
     loadDataToLocalStarage('contacts', contacts)
   }
@@ -85,5 +83,3 @@ export class App extends Component {
   }
 }
 
-
-// styled components
