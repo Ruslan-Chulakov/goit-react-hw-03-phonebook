@@ -1,0 +1,60 @@
+.list {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #67d5fa;
+    border-top: 1px solid #67d5fa;
+}
+
+.parName {
+    padding-bottom: 5px;
+}
+
+.name {
+    font-style: italic;
+    margin-left: 30px;
+}
+
+.number {
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.button {
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #59c9ef;
+    background-color: #a2444d;
+    border-bottom-right-radius: 10px;
+    color: #8edfff;
+}
+
+.button:hover, button:focus {
+    background-color: #bf1c2d;
+    color: #3dc7fd;
+}
+
+.title {
+    text-align: center;
+    padding: 5px 10px;
+    background-color: rgb(255 208 22);
+    color: #ff0202;
+
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 30px;
+}
